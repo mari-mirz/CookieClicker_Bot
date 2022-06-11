@@ -56,7 +56,7 @@ def purchase(wallet, dictionary):
     item.click() 
 
 
-# get cookie
+# start timer (5 seconds)
 cookie = driver.find_element(By.CSS_SELECTOR, "#cookie")
 
 timeout = time.time() + 5
